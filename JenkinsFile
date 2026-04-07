@@ -1,8 +1,8 @@
 pipeline{
     agent any{
         tools{
-            MAVEN "maven3.9"
-            JDK "JDK17"
+            MAVEN = "maven3.9"
+            JDK = "JDK17"
         }
         environment{
             DOCKER_IMAGE_NAME = "naliniselv/codepipeline"
